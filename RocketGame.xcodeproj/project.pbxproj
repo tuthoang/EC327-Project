@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50FB9331CC8076A0085CA1E /* Powerup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A50FB9311CC8076A0085CA1E /* Powerup.cpp */; };
+		A50FB9351CC80B700085CA1E /* powerup.png in Resources */ = {isa = PBXBuildFile; fileRef = A50FB9341CC80B700085CA1E /* powerup.png */; };
+		A51C11C31CBF3E4B0003FC9C /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51C11C21CBF3E4B0003FC9C /* ResourcePath.mm */; };
+		A51C11C61CBF3E4B0003FC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51C11C51CBF3E4B0003FC9C /* main.cpp */; };
+		A51C11C91CBF3E4B0003FC9C /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51C11C81CBF3E4B0003FC9C /* cute_image.jpg */; };
+		A51C11CB1CBF3E4B0003FC9C /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A51C11CA1CBF3E4B0003FC9C /* nice_music.ogg */; };
+		A51C11CD1CBF3E4B0003FC9C /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51C11CC1CBF3E4B0003FC9C /* sansation.ttf */; };
+		A51C11CF1CBF3E4C0003FC9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A51C11CE1CBF3E4C0003FC9C /* icon.png */; };
+		A51C11D61CBF3E9F0003FC9C /* rocketship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51C11D51CBF3E9F0003FC9C /* rocketship.jpg */; };
+		A51C11D81CBF43840003FC9C /* spritesheetRocket.png in Resources */ = {isa = PBXBuildFile; fileRef = A51C11D71CBF43840003FC9C /* spritesheetRocket.png */; };
+		A51C11E31CBF6CCE0003FC9C /* Missile.png in Resources */ = {isa = PBXBuildFile; fileRef = A51C11E21CBF6CCE0003FC9C /* Missile.png */; };
+		A51C11E61CBF78270003FC9C /* Monsters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51C11E41CBF78270003FC9C /* Monsters.cpp */; };
+		A51C11E81CBF7B850003FC9C /* monsters.png in Resources */ = {isa = PBXBuildFile; fileRef = A51C11E71CBF7B850003FC9C /* monsters.png */; };
+		A51C11EA1CBF7CC10003FC9C /* monster-lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = A51C11E91CBF7CC10003FC9C /* monster-lizard.png */; };
+		A523F8541CCC83D80023375B /* rocket_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A523F8531CCC83D80023375B /* rocket_splash.jpg */; };
+		A5513D481CD003B8007EDC77 /* boss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5513D471CD003B8007EDC77 /* boss.jpg */; };
+		A5513D4A1CD003C4007EDC77 /* energy_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D491CD003C4007EDC77 /* energy_ball.png */; };
+		A5513D541CD05E37007EDC77 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D531CD05E37007EDC77 /* red.png */; };
+		A5513D561CD05E45007EDC77 /* starSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D551CD05E45007EDC77 /* starSprite.png */; };
+		A5513D591CD05E5A007EDC77 /* yoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D581CD05E5A007EDC77 /* yoshi.png */; };
+		A5513D5B1CD05F4B007EDC77 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5513D5A1CD05F4B007EDC77 /* space.jpg */; };
+		A5513D5D1CD05F50007EDC77 /* shootingSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5513D5C1CD05F50007EDC77 /* shootingSound.wav */; };
+		A5513D5F1CD05FB5007EDC77 /* YoshiTransp.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D5E1CD05FB5007EDC77 /* YoshiTransp.png */; };
+		A5513D611CD05FCB007EDC77 /* nyan-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D601CD05FCB007EDC77 /* nyan-cat.png */; };
+		A5513D641CD05FEB007EDC77 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D631CD05FEB007EDC77 /* cloud.png */; };
+		A5513D661CD05FF9007EDC77 /* forests.png in Resources */ = {isa = PBXBuildFile; fileRef = A5513D651CD05FF9007EDC77 /* forests.png */; };
+		A5595CE81CC014790090AA40 /* Missile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5595CE41CC014790090AA40 /* Missile.cpp */; };
+		A5595CE91CC014790090AA40 /* Rocketship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5595CE61CC014790090AA40 /* Rocketship.cpp */; };
+		A5A530C41CCBFAFE001B7C37 /* Yoshi_transp.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A530C31CCBFAFE001B7C37 /* Yoshi_transp.png */; };
+		A5AB9ED71CD0FCC50049EBE0 /* epic_dionsaur_piano_song.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5AB9ED51CD0FCC50049EBE0 /* epic_dionsaur_piano_song.wav */; };
+		A5AB9ED81CD0FCC50049EBE0 /* epic_boss_battle_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5AB9ED61CD0FCC50049EBE0 /* epic_boss_battle_music.wav */; };
+		A5C0BBFA1CCB2F4E00F2EFEB /* yeti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C0BBF91CCB2F4E00F2EFEB /* yeti.jpg */; };
+		A5C0BBFC1CCB326600F2EFEB /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C0BBFB1CCB326600F2EFEB /* dragon.jpg */; };
+		A5C0BBFE1CCB363300F2EFEB /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C0BBFD1CCB363300F2EFEB /* alien.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A50FB9311CC8076A0085CA1E /* Powerup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Powerup.cpp; sourceTree = "<group>"; };
+		A50FB9321CC8076A0085CA1E /* Powerup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Powerup.hpp; sourceTree = "<group>"; };
+		A50FB9341CC80B700085CA1E /* powerup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup.png; sourceTree = "<group>"; };
+		A51ABA7F1CCC7D4D00108E9C /* cScreen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cScreen.hpp; sourceTree = "<group>"; };
+		A51ABA801CCC7DBB00108E9C /* screen_0.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = screen_0.hpp; sourceTree = "<group>"; };
+		A51ABA811CCC7DBB00108E9C /* screen_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = screen_1.hpp; sourceTree = "<group>"; };
+		A51C11BD1CBF3E4B0003FC9C /* RocketGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51C11C11CBF3E4B0003FC9C /* RocketGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RocketGame-Info.plist"; sourceTree = "<group>"; };
+		A51C11C21CBF3E4B0003FC9C /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		A51C11C41CBF3E4B0003FC9C /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		A51C11C51CBF3E4B0003FC9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A51C11C81CBF3E4B0003FC9C /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		A51C11CA1CBF3E4B0003FC9C /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		A51C11CC1CBF3E4B0003FC9C /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		A51C11CE1CBF3E4C0003FC9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A51C11D51CBF3E9F0003FC9C /* rocketship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rocketship.jpg; sourceTree = "<group>"; };
+		A51C11D71CBF43840003FC9C /* spritesheetRocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spritesheetRocket.png; sourceTree = "<group>"; };
+		A51C11DD1CBF4DF10003FC9C /* entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = entity.hpp; sourceTree = "<group>"; };
+		A51C11E21CBF6CCE0003FC9C /* Missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Missile.png; sourceTree = "<group>"; };
+		A51C11E41CBF78270003FC9C /* Monsters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monsters.cpp; sourceTree = "<group>"; };
+		A51C11E51CBF78270003FC9C /* Monsters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Monsters.hpp; sourceTree = "<group>"; };
+		A51C11E71CBF7B850003FC9C /* monsters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsters.png; sourceTree = "<group>"; };
+		A51C11E91CBF7CC10003FC9C /* monster-lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-lizard.png"; sourceTree = "<group>"; };
+		A523F8531CCC83D80023375B /* rocket_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rocket_splash.jpg; sourceTree = "<group>"; };
+		A52539441CCE9B2800027EF6 /* screen_congrats.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = screen_congrats.hpp; sourceTree = "<group>"; };
+		A5513D471CD003B8007EDC77 /* boss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boss.jpg; sourceTree = "<group>"; };
+		A5513D491CD003C4007EDC77 /* energy_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energy_ball.png; sourceTree = "<group>"; };
+		A5513D531CD05E37007EDC77 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		A5513D551CD05E45007EDC77 /* starSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starSprite.png; sourceTree = "<group>"; };
+		A5513D571CD05E4B007EDC77 /* SuperMarioBros.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMarioBros.ogg; sourceTree = "<group>"; };
+		A5513D581CD05E5A007EDC77 /* yoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoshi.png; sourceTree = "<group>"; };
+		A5513D5A1CD05F4B007EDC77 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		A5513D5C1CD05F50007EDC77 /* shootingSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shootingSound.wav; sourceTree = "<group>"; };
+		A5513D5E1CD05FB5007EDC77 /* YoshiTransp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YoshiTransp.png; sourceTree = "<group>"; };
+		A5513D601CD05FCB007EDC77 /* nyan-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-cat.png"; sourceTree = "<group>"; };
+		A5513D621CD05FD2007EDC77 /* Nyan_Cat.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nyan_Cat.ogg; sourceTree = "<group>"; };
+		A5513D631CD05FEB007EDC77 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		A5513D651CD05FF9007EDC77 /* forests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forests.png; sourceTree = "<group>"; };
+		A5595CE41CC014790090AA40 /* Missile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Missile.cpp; sourceTree = "<group>"; };
+		A5595CE51CC014790090AA40 /* Missile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Missile.hpp; sourceTree = "<group>"; };
+		A5595CE61CC014790090AA40 /* Rocketship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rocketship.cpp; sourceTree = "<group>"; };
+		A5595CE71CC014790090AA40 /* Rocketship.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rocketship.hpp; sourceTree = "<group>"; };
+		A5A530C31CCBFAFE001B7C37 /* Yoshi_transp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yoshi_transp.png; sourceTree = "<group>"; };
+		A5AB9ED51CD0FCC50049EBE0 /* epic_dionsaur_piano_song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = epic_dionsaur_piano_song.wav; sourceTree = "<group>"; };
+		A5AB9ED61CD0FCC50049EBE0 /* epic_boss_battle_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = epic_boss_battle_music.wav; sourceTree = "<group>"; };
+		A5C0BBF91CCB2F4E00F2EFEB /* yeti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yeti.jpg; sourceTree = "<group>"; };
+		A5C0BBFB1CCB326600F2EFEB /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
+		A5C0BBFD1CCB363300F2EFEB /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		A5E13D6F1CCD2DD1003C14CE /* screen_instructions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = screen_instructions.hpp; sourceTree = "<group>"; };
+		A5E13D701CCD31B0003C14CE /* screen_gameover.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = screen_gameover.hpp; sourceTree = "<group>"; };
+		A5E788D81CCEE7FA00738C7B /* screen_highscores.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = screen_highscores.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51C11B91CBF3E4B0003FC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51C11B31CBF3E4B0003FC9C = {
+			isa = PBXGroup;
+			children = (
+				A51C11BF1CBF3E4B0003FC9C /* RocketGame */,
+				A51C11BE1CBF3E4B0003FC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51C11BE1CBF3E4B0003FC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51C11BD1CBF3E4B0003FC9C /* RocketGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51C11BF1CBF3E4B0003FC9C /* RocketGame */ = {
+			isa = PBXGroup;
+			children = (
+				A51ABA7F1CCC7D4D00108E9C /* cScreen.hpp */,
+				A51C11DD1CBF4DF10003FC9C /* entity.hpp */,
+				A51C11C51CBF3E4B0003FC9C /* main.cpp */,
+				A5595CE41CC014790090AA40 /* Missile.cpp */,
+				A5595CE51CC014790090AA40 /* Missile.hpp */,
+				A51C11E41CBF78270003FC9C /* Monsters.cpp */,
+				A51C11E51CBF78270003FC9C /* Monsters.hpp */,
+				A50FB9311CC8076A0085CA1E /* Powerup.cpp */,
+				A50FB9321CC8076A0085CA1E /* Powerup.hpp */,
+				A51C11C41CBF3E4B0003FC9C /* ResourcePath.hpp */,
+				A51C11C21CBF3E4B0003FC9C /* ResourcePath.mm */,
+				A5595CE61CC014790090AA40 /* Rocketship.cpp */,
+				A5595CE71CC014790090AA40 /* Rocketship.hpp */,
+				A51ABA801CCC7DBB00108E9C /* screen_0.hpp */,
+				A51ABA811CCC7DBB00108E9C /* screen_1.hpp */,
+				A52539441CCE9B2800027EF6 /* screen_congrats.hpp */,
+				A5E13D701CCD31B0003C14CE /* screen_gameover.hpp */,
+				A5E788D81CCEE7FA00738C7B /* screen_highscores.hpp */,
+				A5E13D6F1CCD2DD1003C14CE /* screen_instructions.hpp */,
+				A51C11C71CBF3E4B0003FC9C /* Resources */,
+				A51C11C01CBF3E4B0003FC9C /* Supporting Files */,
+			);
+			path = RocketGame;
+			sourceTree = "<group>";
+		};
+		A51C11C01CBF3E4B0003FC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A51C11C11CBF3E4B0003FC9C /* RocketGame-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A51C11C71CBF3E4B0003FC9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0BBFD1CCB363300F2EFEB /* alien.png */,
+				A5513D471CD003B8007EDC77 /* boss.jpg */,
+				A5513D631CD05FEB007EDC77 /* cloud.png */,
+				A51C11C81CBF3E4B0003FC9C /* cute_image.jpg */,
+				A5C0BBFB1CCB326600F2EFEB /* dragon.jpg */,
+				A5513D491CD003C4007EDC77 /* energy_ball.png */,
+				A5AB9ED61CD0FCC50049EBE0 /* epic_boss_battle_music.wav */,
+				A5AB9ED51CD0FCC50049EBE0 /* epic_dionsaur_piano_song.wav */,
+				A5513D651CD05FF9007EDC77 /* forests.png */,
+				A51C11CE1CBF3E4C0003FC9C /* icon.png */,
+				A51C11E21CBF6CCE0003FC9C /* Missile.png */,
+				A51C11E91CBF7CC10003FC9C /* monster-lizard.png */,
+				A51C11E71CBF7B850003FC9C /* monsters.png */,
+				A51C11CA1CBF3E4B0003FC9C /* nice_music.ogg */,
+				A5513D621CD05FD2007EDC77 /* Nyan_Cat.ogg */,
+				A5513D601CD05FCB007EDC77 /* nyan-cat.png */,
+				A50FB9341CC80B700085CA1E /* powerup.png */,
+				A5513D531CD05E37007EDC77 /* red.png */,
+				A523F8531CCC83D80023375B /* rocket_splash.jpg */,
+				A51C11D51CBF3E9F0003FC9C /* rocketship.jpg */,
+				A51C11CC1CBF3E4B0003FC9C /* sansation.ttf */,
+				A5513D5C1CD05F50007EDC77 /* shootingSound.wav */,
+				A5513D5A1CD05F4B007EDC77 /* space.jpg */,
+				A51C11D71CBF43840003FC9C /* spritesheetRocket.png */,
+				A5513D551CD05E45007EDC77 /* starSprite.png */,
+				A5513D571CD05E4B007EDC77 /* SuperMarioBros.ogg */,
+				A5C0BBF91CCB2F4E00F2EFEB /* yeti.jpg */,
+				A5A530C31CCBFAFE001B7C37 /* Yoshi_transp.png */,
+				A5513D581CD05E5A007EDC77 /* yoshi.png */,
+				A5513D5E1CD05FB5007EDC77 /* YoshiTransp.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51C11BC1CBF3E4B0003FC9C /* RocketGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51C11D21CBF3E4C0003FC9C /* Build configuration list for PBXNativeTarget "RocketGame" */;
+			buildPhases = (
+				A51C11B81CBF3E4B0003FC9C /* Sources */,
+				A51C11B91CBF3E4B0003FC9C /* Frameworks */,
+				A51C11BA1CBF3E4B0003FC9C /* Resources */,
+				A51C11BB1CBF3E4B0003FC9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketGame;
+			productName = RocketGame;
+			productReference = A51C11BD1CBF3E4B0003FC9C /* RocketGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51C11B41CBF3E4B0003FC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timmy Hoang";
+				TargetAttributes = {
+					A51C11BC1CBF3E4B0003FC9C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A51C11B71CBF3E4B0003FC9C /* Build configuration list for PBXProject "RocketGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A51C11B31CBF3E4B0003FC9C;
+			productRefGroup = A51C11BE1CBF3E4B0003FC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51C11BC1CBF3E4B0003FC9C /* RocketGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51C11BA1CBF3E4B0003FC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51C11CF1CBF3E4C0003FC9C /* icon.png in Resources */,
+				A5513D661CD05FF9007EDC77 /* forests.png in Resources */,
+				A5C0BBFA1CCB2F4E00F2EFEB /* yeti.jpg in Resources */,
+				A5513D561CD05E45007EDC77 /* starSprite.png in Resources */,
+				A51C11EA1CBF7CC10003FC9C /* monster-lizard.png in Resources */,
+				A5513D481CD003B8007EDC77 /* boss.jpg in Resources */,
+				A51C11CD1CBF3E4B0003FC9C /* sansation.ttf in Resources */,
+				A5C0BBFC1CCB326600F2EFEB /* dragon.jpg in Resources */,
+				A51C11E81CBF7B850003FC9C /* monsters.png in Resources */,
+				A5AB9ED71CD0FCC50049EBE0 /* epic_dionsaur_piano_song.wav in Resources */,
+				A5513D5B1CD05F4B007EDC77 /* space.jpg in Resources */,
+				A523F8541CCC83D80023375B /* rocket_splash.jpg in Resources */,
+				A5513D591CD05E5A007EDC77 /* yoshi.png in Resources */,
+				A51C11CB1CBF3E4B0003FC9C /* nice_music.ogg in Resources */,
+				A5513D541CD05E37007EDC77 /* red.png in Resources */,
+				A5513D5D1CD05F50007EDC77 /* shootingSound.wav in Resources */,
+				A5513D4A1CD003C4007EDC77 /* energy_ball.png in Resources */,
+				A51C11C91CBF3E4B0003FC9C /* cute_image.jpg in Resources */,
+				A5A530C41CCBFAFE001B7C37 /* Yoshi_transp.png in Resources */,
+				A50FB9351CC80B700085CA1E /* powerup.png in Resources */,
+				A51C11E31CBF6CCE0003FC9C /* Missile.png in Resources */,
+				A5C0BBFE1CCB363300F2EFEB /* alien.png in Resources */,
+				A51C11D81CBF43840003FC9C /* spritesheetRocket.png in Resources */,
+				A5513D5F1CD05FB5007EDC77 /* YoshiTransp.png in Resources */,
+				A5AB9ED81CD0FCC50049EBE0 /* epic_boss_battle_music.wav in Resources */,
+				A5513D641CD05FEB007EDC77 /* cloud.png in Resources */,
+				A51C11D61CBF3E9F0003FC9C /* rocketship.jpg in Resources */,
+				A5513D611CD05FCB007EDC77 /* nyan-cat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A51C11BB1CBF3E4B0003FC9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51C11B81CBF3E4B0003FC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5595CE81CC014790090AA40 /* Missile.cpp in Sources */,
+				A51C11E61CBF78270003FC9C /* Monsters.cpp in Sources */,
+				A50FB9331CC8076A0085CA1E /* Powerup.cpp in Sources */,
+				A5595CE91CC014790090AA40 /* Rocketship.cpp in Sources */,
+				A51C11C61CBF3E4B0003FC9C /* main.cpp in Sources */,
+				A51C11C31CBF3E4B0003FC9C /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A51C11D01CBF3E4C0003FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		A51C11D11CBF3E4C0003FC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		A51C11D31CBF3E4C0003FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RocketGame/RocketGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A51C11D41CBF3E4C0003FC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RocketGame/RocketGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51C11B71CBF3E4B0003FC9C /* Build configuration list for PBXProject "RocketGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51C11D01CBF3E4C0003FC9C /* Debug */,
+				A51C11D11CBF3E4C0003FC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51C11D21CBF3E4C0003FC9C /* Build configuration list for PBXNativeTarget "RocketGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51C11D31CBF3E4C0003FC9C /* Debug */,
+				A51C11D41CBF3E4C0003FC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51C11B41CBF3E4B0003FC9C /* Project object */;
+}
